@@ -340,16 +340,16 @@ def return_routes():
     cor=0
     while cor<len(final_list):
         if final_list[cas]==BusAco:
-            route_names.append('Ebaid Khetim')
+            routeN='Ebaid Khetim'
         elif final_list[cas]==BusJco:
-            route_names.append('Africa University')
+            routeN='Africa University'
         elif final_list[cas]==BusKco:
-            route_names.append('Kahraba')
+            routeN='Kahraba'
         elif final_list[cas]==BusMco:
-            route_names.append('Soug Markazi')
+            routeN='Soug Markazi'
         elif final_list[cas]==BusSco:
-            route_names.append('Sahafa Zalat')
-        finalpackage['routes'].append({route_names[cor]:final_list[cor]})
+            routeN='Sahafa Zalat'
+        finalpackage['routes'].append({routeN:final_list[cor]})
         cor=cor+1
 
 
